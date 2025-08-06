@@ -160,3 +160,11 @@
  je_military_balance_era5_2: "Balance Militar"
  je_military_balance_era5_5: "Balance Militar"
  je_military_balance_era5_5_2: "Balance Militar"
+ mobilization_option_handcranked_machinegun: "Ametralladora de manivela"
+ mobilization_option_helmets: "Cascos"
+ mobilization_option_light_machineguns: "Ametralladora ligera"
+ mobilization_option_heavy_machineguns: "Ametralladora pesada"
+ mobilization_option_modern_uniforms: "Uniformes modernos"
+ mobilization_option_hand_grenades: "Granadas de mano"
+ mobilization_option_ambulances: "Ambulancias"
+ 

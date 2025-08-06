@@ -1,5 +1,5 @@
 ﻿je_schleswig_holstein_question = {
-	icon = "gfx/interface/icons/achievements/three_hurrahs.dds"
+	icon = "gfx/interface/icons/journal_icons/german_icons/schleswigholsteinquestion.dds"
 	
 	group = je_group_historical_content
 
@@ -96,7 +96,7 @@
 }
 
 je_german_unification_idea = {
-	icon = "gfx/interface/icons/achievements/three_hurrahs.dds"
+	icon = "gfx/interface/icons/journal_icons/german_icons/germanidentity.dds"
 	
 	group = je_group_historical_content
 
@@ -256,7 +256,7 @@ je_german_unification_idea = {
 }
 
 je_north_german_unification = {
-	icon = "gfx/interface/icons/achievements/three_hurrahs.dds"
+	icon = "gfx/interface/icons/journal_icons/german_icons/ngficon.dds"
 	
 	group = je_group_historical_content
 
@@ -346,33 +346,59 @@ je_north_german_unification = {
 }
 
 je_german_unification = {
-	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	icon = "gfx/interface/icons/journal_icons/german_icons/germanunification.dds"
+	
+	group = je_group_historical_content
 
-	group = je_group_german_unification
 
-	is_shown_when_inactive = {
-		has_variable = je_german_confederate_unifier
-	}
-
-	possible = {
-		hidden_trigger = { has_variable = je_german_confederate_unifier }
-		country_rank >= rank_value:major_power
-		has_technology_researched = nationalism
-		is_subject = no
-	}
 
 	complete = {
 		custom_tooltip = {
-			c:GER ?= this
-			text = je_german_unification_complete_trigger_desc
+			text = je_german_unification_sole_candidate_trigger_desc
+			is_unification_candidate = GER
+			NOT = {
+			
+				any_country = {
+				
+					NOT = { this = root }				
+					is_unification_candidate = GER
+				}
+			}	
 		}
 	}
 
 	on_complete = {
-		show_as_tooltip = {
-			trigger_event = { id = german_unification.4 popup = yes } # German Unification
+		
+		if = {
+			limit = {
+				root = c:NGF
+			}
+			change_tag = GER
 		}
-		remove_variable = je_unification_progress
+		else = {
+			change_tag = SGF
+		}
+		trigger_event = { id = german_unification.4 popup = yes } # German Unification remove_variable = je_unification_progress
+		custom_tooltip = {
+			text = je_german_unification_desc
+			every_country = {
+				limit = {
+					AND = {
+						country_has_primary_culture = cu:south_german
+						NOT = {
+							this = c:AUS
+						}
+					}
+				}
+				root = {annex_with_incorporation = prev}
+			}
+		}
+		every_country = {
+			limit = {
+				has_variable = je_german_unification_idea
+			}
+			remove_variable = je_german_unification_idea
+		}
 	}
 
 	status_desc = {
@@ -385,8 +411,10 @@ je_german_unification = {
 
 	invalid = {
 		OR = {
-			country_has_primary_culture = cu:hungarian
 			c:HRE ?= THIS
+			NOT = {
+				is_unification_candidate = GER
+			}
 		}
 	}
 

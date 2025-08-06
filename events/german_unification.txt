@@ -215,8 +215,7 @@ german_unification.4 = {
 
 	duration = 3
 
-	trigger = {
-	}
+
 
 	option = {
 		name = german_unification.4.a

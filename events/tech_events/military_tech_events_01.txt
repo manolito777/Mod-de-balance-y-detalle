@@ -114,11 +114,11 @@ military_tech_events.402 = {
 	trigger = {
 		OR = {
 			army_mobilization_option_fraction = {
-				target = mobilization_option:mobilization_option_heavy_machinegunners
+				target = mobilization_option:mobilization_option_heavy_machineguns
 				value >= 0.2
 			}
 			army_mobilization_option_fraction = {
-				target = mobilization_option:mobilization_option_light_machinegunners
+				target = mobilization_option:mobilization_option_light_machineguns
 				value >= 0.2
 			}
 		}
@@ -128,7 +128,7 @@ military_tech_events.402 = {
 				any_scope_general = {
 					owner = ROOT
 					this.commander_military_formation = {
-						has_mobilization_option = mobilization_option:mobilization_option_machinegunners
+						has_mobilization_option = mobilization_option:mobilization_option_machinegun
 					}
 				}
 			}
@@ -141,7 +141,7 @@ military_tech_events.402 = {
 					any_scope_general = {
 						owner = ROOT
 						this.commander_military_formation = {
-							has_mobilization_option = mobilization_option:mobilization_option_machinegunners
+							has_mobilization_option = mobilization_option:mobilization_option_machinegun
 						}
 					}
 				}
@@ -152,7 +152,7 @@ military_tech_events.402 = {
 					any_scope_general = {
 						owner = ROOT
 						this.commander_military_formation = {
-							has_mobilization_option = mobilization_option:mobilization_option_machinegunners
+							has_mobilization_option = mobilization_option:mobilization_option_machinegun
 						}
 					}
 				}
@@ -160,7 +160,7 @@ military_tech_events.402 = {
 					limit = {
 						owner = ROOT
 						this.commander_military_formation = {
-							has_mobilization_option = mobilization_option:mobilization_option_machinegunners
+							has_mobilization_option = mobilization_option:mobilization_option_machinegun
 						}
 					}
 					save_scope_as = machine_gun_general

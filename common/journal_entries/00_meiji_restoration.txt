@@ -27,7 +27,7 @@
 }
 
 je_meiji_restoration = {
-	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	icon = "gfx/interface/icons/journal_icons/japan_icons/gloryjapanmeiji.dds"
 	
 	group = je_group_historical_content
 
@@ -146,7 +146,7 @@ je_meiji_restoration = {
 
 
 je_meiji_main = {
-	icon = "gfx/interface/icons/event_icons/event_scales.dds"
+	icon = "gfx/interface/icons/journal_icons/japan_icons/meijimain.dds"
 	
 	group = je_group_historical_content
 
@@ -187,7 +187,7 @@ je_meiji_main = {
 }
 
 je_meiji_economy = {
-	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+	icon = "gfx/interface/icons/journal_icons/japan_icons/meijieconomy.dds"
 	
 	group = je_group_historical_content
 
@@ -227,7 +227,7 @@ je_meiji_economy = {
 }
 
 je_meiji_army = {
-	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	icon = "gfx/interface/icons/journal_icons/japan_icons/meijimilitary.dds"
 	
 	group = je_group_historical_content
 
@@ -278,7 +278,7 @@ je_meiji_army = {
 }
 
 je_meiji_diplomacy = {
-	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+	icon = "gfx/interface/icons/japan_icons/journal_icons/meijidiplomacy.dds"
 	
 	group = je_group_historical_content
 
