@@ -1,5 +1,5 @@
 ﻿je_terakoya = {
-	icon = "gfx/interface/icons/institution_icons/schools.dds"
+	icon = "gfx/interface/icons/journal_icons/japan_icons/terakoya.dds"
 	
 	group = je_group_historical_content
 
