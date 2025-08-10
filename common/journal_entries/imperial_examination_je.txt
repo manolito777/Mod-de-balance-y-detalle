@@ -1,5 +1,5 @@
 ﻿je_imperial_examination_system = {
-	icon = "gfx/interface/icons/institution_icons/schools.dds"
+	icon = "gfx/interface/icons/event_icons/innovation.dds"
 	
 	group = je_group_historical_content
 

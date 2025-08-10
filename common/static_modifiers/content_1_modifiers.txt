@@ -859,8 +859,9 @@ battleship_hoax = {
 }
 
 dual_monarchy_compromise = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
-	country_prestige_add = -100
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_tech_spread_mult = 0.15
+	
 }
 
 dual_monarchy_compromise_rejected = {

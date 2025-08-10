@@ -1,5 +1,5 @@
 ﻿je_manifest_destiny_pov_mexico = {
-	icon = "gfx/interface/icons/journal_icons/mexican_icons/manmex.dds"
+	icon = "gfx/interface/icons/event_icons/expansion.dds"
 
 	group = je_group_foreign_affairs
 

@@ -1,5 +1,5 @@
 ﻿je_schleswig_holstein_question = {
-	icon = "gfx/interface/icons/journal_icons/german_icons/schleswigholsteinquestion.dds"
+	icon = "gfx/interface/icons/event_icons/germany.dds"
 	
 	group = je_group_historical_content
 
@@ -96,7 +96,7 @@
 }
 
 je_german_unification_idea = {
-	icon = "gfx/interface/icons/journal_icons/german_icons/germanidentity.dds"
+	icon = "gfx/interface/icons/event_icons/germany.dds"
 	
 	group = je_group_historical_content
 
@@ -256,7 +256,7 @@ je_german_unification_idea = {
 }
 
 je_north_german_unification = {
-	icon = "gfx/interface/icons/journal_icons/german_icons/ngficon.dds"
+	icon = "gfx/interface/icons/event_icons/germany.dds"
 	
 	group = je_group_historical_content
 
@@ -346,7 +346,7 @@ je_north_german_unification = {
 }
 
 je_german_unification = {
-	icon = "gfx/interface/icons/journal_icons/german_icons/germanunification.dds"
+	icon = "gfx/interface/icons/event_icons/germany.dds"
 	
 	group = je_group_historical_content
 

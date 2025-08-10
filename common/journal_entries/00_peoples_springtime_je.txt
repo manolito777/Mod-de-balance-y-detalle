@@ -1,5 +1,5 @@
 ﻿je_springtime_of_the_peoples = {
-	icon = "gfx/interface/icons/journal_icons/mdb/rad.dds"
+	icon = "gfx/interface/icons/event_icons/phrygian.dds"
 
 	group = je_group_crises
 

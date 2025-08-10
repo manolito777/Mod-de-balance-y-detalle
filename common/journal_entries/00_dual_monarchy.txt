@@ -1,5 +1,5 @@
 ﻿je_dual_monarchy = {
-	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+	icon = "gfx/interface/icons/event_icons/austria_hungary.dds"
 
 	group = je_group_historical_content
 
@@ -11,8 +11,13 @@
 		trigger_event = {
 			id = dual_monarchy.1
 		}
+		add_modifier = {
+            name = dual_monarchy_compromise
+            years = 20
+            is_decaying = yes
+        }
 	}
-
+	
 	fail = {
 		cu:hungarian = {
 			culture_secession_progress = {

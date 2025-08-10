@@ -4,7 +4,7 @@
 
 #RIO AMARILLO
 je_five_year_plan_1 = {
-	icon = "gfx/interface/icons/jornal_icons/china_icons/mochi.dds"
+	icon = "gfx/interface/icons/event_icons/qing_breakup.dds"
 	
 	group = je_group_internal_affairs
 	
@@ -125,7 +125,7 @@ je_five_year_plan_1 = {
 
 #RIO YANGTZE
 je_five_year_plan_2 = {
-	icon = "gfx/interface/icons/jornal_icons/china_icons/mochi.dds"
+	icon = "gfx/interface/icons/event_icons/qing_breakup.dds"
 	
 	group = je_group_internal_affairs
 	

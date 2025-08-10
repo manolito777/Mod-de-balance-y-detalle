@@ -23,6 +23,9 @@ USA = {
 	
 	cultures = { yankee dixie }
 	capital = STATE_GREATER_MARYLAND
+	primary_unit_color = { 30 45 62 }
+	secondary_unit_color  = { 150 190 210 }
+	tertiary_unit_color = { 30 45 62 }
 }
 
 SYR = {
