@@ -43,8 +43,7 @@ company_east_indies_trading_company = {
 	}
 	
 	prosperity_modifier = {
-		state_trade_advantage_mult = 0.25
-		country_company_throughput_bonus_add = 0.05
+		state_trade_advantage_mult = 0.1
         country_max_companies_add = 1
 	}
 	
