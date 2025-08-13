@@ -81,7 +81,7 @@ popneed_basic_food = {
 	entry = {
 		goods = groceries
 
-		weight = 1
+		weight = 0.95
 		max_supply_share = 0.65
 		min_supply_share = 0.0
 	}
