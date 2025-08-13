@@ -435,7 +435,7 @@ insufficient_convoys = {
 # Excess BUR increases construction speed by +10% at 2x production to usage
 efficient_bureaucracy = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
-	state_construction_mult = 0.10
+	state_construction_mult = 0.25
 	country_institution_size_change_speed_mult = 0.35
 }
 
@@ -711,8 +711,8 @@ country_literacy_rate = {
 # Scales with number of excess innovation points
 excess_innovation = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
-	country_tech_spread_add = 0.18
-	country_tech_spread_mult = -0.00034
+	country_tech_spread_add = 0.15
+	country_tech_spread_mult = -0.0004
 }
 
 # Scales with admiral convoy raiding strength

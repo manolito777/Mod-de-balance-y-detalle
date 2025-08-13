@@ -5,14 +5,14 @@
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_construction_add = 2
+			country_construction_add = 2 # 1000
 		}
 	}
 
 	building_modifiers = {
-		workforce_scaled = {
-			goods_input_fabric_add = 25
-			goods_input_wood_add = 75
+		workforce_scaled = { #Bien x Costo
+			goods_input_fabric_add = 25 # 25 x 20 = 500
+			goods_input_wood_add = 75 # 75 x 20 = 1500
 		}
 
 		level_scaled = {
@@ -41,16 +41,16 @@ pm_iron_frame_buildings = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_construction_add = 5
+			country_construction_add = 5 # 4000 -> 800
 		}
 
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_wood_add = 40
-			goods_input_fabric_add = 25
-			goods_input_iron_add = 50
-			goods_input_tools_add = 12
+			goods_input_wood_add = 40 # 40 x 20 = 800
+			goods_input_fabric_add = 30 # 30 x 20 = 600
+			goods_input_iron_add = 50 # 50 x 40 = 2000
+			goods_input_tools_add = 15 # 15 x 40 = 600
 		}
 
 		level_scaled = {
@@ -66,7 +66,7 @@ pm_iron_frame_buildings = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_construction_mult = 0.003
+			state_construction_mult = 0.0025
 		}
 	}
 }
@@ -80,16 +80,16 @@ pm_steel_frame_buildings = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_construction_add = 10
+			country_construction_add = 9 # 5850 -> 650
 		}
 	}
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_steel_add = 50
-			goods_input_glass_add = 42
-			goods_input_explosives_add = 12
-			goods_input_tools_add = 20
+			goods_input_steel_add = 50 # 50 x 50 = 2500
+			goods_input_glass_add = 45 # 45 x 40 = 1600
+			goods_input_explosives_add = 15 # 15 x 50 = 750 
+			goods_input_tools_add = 20 # 20 x 40 = 800
 		}
 
 		level_scaled = {
@@ -105,7 +105,7 @@ pm_steel_frame_buildings = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_construction_mult = 0.0055
+			state_construction_mult = 0.0035
 		}
 	}
 }
@@ -119,17 +119,17 @@ pm_arc_welded_buildings = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_construction_add = 15
+			country_construction_add = 15 # 7500 -> 500
 		}
 	}
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_steel_add = 50
-			goods_input_glass_add = 40
-			goods_input_explosives_add = 20
-			goods_input_tools_add = 40
-			goods_input_electricity_add = 40
+			goods_input_steel_add = 50 # 50 x 50 = 2500
+			goods_input_glass_add = 45 # 45 x 40 = 1800
+			goods_input_explosives_add = 20 # 20 x 50 = 1000
+			goods_input_tools_add = 40 # 40 x 40 = 1600
+			goods_input_electricity_add = 20 # 20 x 30 = 600
 		}
 
 		level_scaled = {
@@ -146,7 +146,7 @@ pm_arc_welded_buildings = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_construction_mult = 0.01
+			state_construction_mult = 0.0075
 		}
 	}
 
