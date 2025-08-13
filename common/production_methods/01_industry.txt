@@ -58,7 +58,7 @@ pm_baking_powder = {
 			goods_input_sugar_add = 30		# x30 =  900
 
 			# output goods
-			goods_output_groceries_add = 120	# x30 = 3600
+			goods_output_groceries_add = 125	# x30 = 3750
 		}
 
 		level_scaled = {
