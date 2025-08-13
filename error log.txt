@@ -327,12 +327,6 @@ Malformed token: @canton_scale_cross_y, near line: 2700" in file: "common/coat_o
 [15:42:06][player_message_type.cpp:177]: Diplomatic Action Group has mixed Notification Types
 [15:42:06][journalentry_type.cpp:290]: Journal entry has redundant loc for je_sick_man_education_goal
 
-[15:42:07][jomini_script_system.cpp:247]: Script system error!
-  Error: has_journal_entry trigger [ Invalid database object 'je_chinese_missions' ]
-  Script location: common/laws/00_migration.txt:72
-
-
-[15:42:07][jomini_trigger.cpp:223]: PostValidate of trigger 'owns_entire_state_region' returned false at common/journal_entries/russo-turkish_war_je.txt:633
 [15:42:08][state_region_template.cpp:1473]: No Port / Treaty Port province designated for coastal State Region: STATE_GREATER_MASSACHUSETTS
 [15:42:08][state_region_template.cpp:1473]: No Port / Treaty Port province designated for coastal State Region: STATE_GREATER_MARYLAND
 [15:42:08][state_region_template.cpp:1473]: No Port / Treaty Port province designated for coastal State Region: STATE_HAINAN
@@ -384,9 +378,6 @@ Malformed token: @canton_scale_cross_y, near line: 2700" in file: "common/coat_o
 [15:42:08][modifier_type_definition_database.cpp:43]: Modifier type definition unit_combat_unit_type_heavy_tanks_defense_mult is not a valid static or dynamic modifier type.
 [15:42:08][modifier_type_definition_database.cpp:43]: Modifier type definition state_radicals_from_sol_change_mult is not a valid static or dynamic modifier type.
 [15:42:08][modifier_type_definition_database.cpp:43]: Modifier type definition state_loyalists_from_sol_change_mult is not a valid static or dynamic modifier type.
-[15:42:08][jomini_script_system.cpp:247]: Script system error!
-  Error: trigger_event effect [ On action not found! OnActionID: krakatoa_on_action ]
-  Script location: common/journal_entries/00_krakatoa.txt:16
 
 [15:42:08][jomini_script_system.cpp:247]: Script system error!
   Error: add_journal_entry effect [ Invalid journal entry type 'je_south_german_unification' ]
