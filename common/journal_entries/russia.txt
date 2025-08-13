@@ -1,4 +1,4 @@
-je_trans_siberian_railway = {
+﻿je_trans_siberian_railway = {
 	icon = "gfx/interface/icons/journal_icons/russia_icons/siberianrailway.dds"
 	
 	group = je_group_historical_content

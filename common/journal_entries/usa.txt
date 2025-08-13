@@ -1,4 +1,4 @@
-
+﻿
 je_indian_removal = {
 	icon = "gfx/interface/icons/journal_icons/usa_icons/indianremoval.dds"
 

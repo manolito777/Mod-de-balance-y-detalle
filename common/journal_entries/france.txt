@@ -1,4 +1,4 @@
-je_divided_monarchists = {
+﻿je_divided_monarchists = {
 	icon = "gfx/interface/icons/journal_icons/french_icons/dividedmonarchists.dds"
 
 	group = je_group_historical_content
