@@ -1,85 +1,7 @@
-je_trans_siberian_railway = {
-	icon = "gfx/interface/icons/journal_icons/russia_icons/siberianrailway.dds"
-	
-	group = je_group_historical_content
 
-	is_shown_when_inactive = {
-		is_player = yes
-		NOT = { has_global_variable = trans_siberian_done }
-		owns_entire_state_region = STATE_MOSCOW
-		any_state = {
-			filter = {
-				OR = {
-					region = sr:region_east_siberia
-					region = sr:region_west_siberia
-				}
-			}
-			percent > 0.8
-			owner = ROOT
-		}
-	}
-
-	possible = {
-		has_technology_researched = railways
-	}
-
-	complete = {
-		any_scope_state = {
-			filter = {
-				OR = {
-					state_region = s:STATE_MOSCOW
-					state_region = s:STATE_YAROSLAVL
-					state_region = s:STATE_NIZHNY_NOVGOROD
-					state_region = s:STATE_CHUVASHIA
-					state_region = s:STATE_KAZAN
-					state_region = s:STATE_UFA
-					state_region = s:STATE_CHELYABINSK
-					state_region = s:STATE_URAL
-					state_region = s:STATE_TOBOLSK
-					state_region = s:STATE_TOMSK
-					state_region = s:STATE_KRASNOYARSK
-					state_region = s:STATE_IRKUTSK
-					state_region = s:STATE_BURYATIA
-					state_region = s:STATE_TRANS_BAIKAL
-				}
-			}
-			has_building = building_railway
-			percent = 1
-		}
-		OR = {
-			AND = {
-				any_scope_state = {
-					state_region = s:STATE_YAKUTSK
-					has_building = building_railway
-				}
-				any_scope_state = {
-					state_region = s:STATE_OKHOTSK
-					has_building = building_railway
-				}
-			}
-			AND = {
-				any_scope_state = {
-					state_region = s:STATE_AMUR
-					has_building = building_railway
-				}
-				any_scope_state = {
-					state_region = s:STATE_OUTER_MANCHURIA
-					has_building = building_railway
-				}
-			}
-		}
-	}
-
-	on_complete = {
-		set_global_variable = trans_siberian_done
-		trigger_event = { id = major_railways.1 }
-	}
-
-	weight = 50
-}
 
 je_the_eastern_border = {
-    icon = "gfx/interface/icons/journal_icons/russia_icons/rulerofeast.dds"
+    icon = "gfx/interface/icons/event_icons/expansion.dds"
 
 	group = je_group_historical_content
 
@@ -149,7 +71,7 @@ je_the_eastern_border = {
 }
 
 je_caucasian_war = {
-    icon = "gfx/interface/icons/journal_icons/russia_icons/caucasianwar.dds"
+    icon = "gfx/interface/icons/event_icons/expansion.dds"
 
     group = je_group_historical_content
 
@@ -341,7 +263,7 @@ je_caucasian_war = {
 }
 
 je_circassian_expulsions = {
-    icon = "gfx/interface/icons/journal_icons/russia_icons/circassianexpulsion.dds"
+    icon = "gfx/interface/icons/event_icons/event_skull.dds"
 
     group = je_group_historical_content
 
@@ -548,7 +470,7 @@ je_circassian_expulsions = {
 }
 
 je_caucasian_war_circassia = {
-    icon = "gfx/interface/icons/journal_icons/russia_icons/caucasianwar.dds"
+    icon = "gfx/interface/icons/event_icons/expansion.dds"
 
     group = je_group_historical_content
 
@@ -644,7 +566,7 @@ je_caucasian_war_circassia = {
 }
 
 je_caucasian_war_imamate = {
-    icon = "gfx/interface/icons/journal_icons/russia_icons/caucasianwar.dds"
+    icon = "gfx/interface/icons/event_icons/expansion.dds"
 
     group = je_group_historical_content
 
@@ -741,7 +663,7 @@ je_caucasian_war_imamate = {
 }
 
 je_pacify_the_steppes = {
-    icon = "gfx/interface/icons/journal_icons/russia_icons/pacificationofsteppes.dds"
+    icon = "gfx/interface/icons/event_icons/security.dds"
 
     group = je_group_historical_content
 
@@ -910,7 +832,7 @@ je_pacify_the_steppes = {
 }
 
 je_the_last_kazakh_khan = {
-    icon = "gfx/interface/icons/journal_icons/russia_icons/thelastkhan.dds"
+    icon = "gfx/interface/icons/event_icons/war.dds"
 
     group = je_group_historical_content
 
@@ -966,7 +888,7 @@ je_the_last_kazakh_khan = {
 }
 
 je_conquest_of_central_asia = {
-    icon = "gfx/interface/icons/journal_icons/russia_icons/centralasianconquest.dds"
+    icon = "gfx/interface/icons/event_icons/expansion.dds"
     
     group = je_group_historical_content
 
@@ -1049,7 +971,7 @@ je_conquest_of_central_asia = {
 }
 
 je_great_reformer = { # Note - Alexander II certainly would not have called these the "Great Reforms" himself, and to claim that they were all part of the same initiative is incorrect. For gameplay purposes, however, this is the best available name.
-    icon = "gfx/interface/icons/journal_icons/russia_icons/alexreformsmain.dds"
+    icon = "gfx/interface/icons/event_icons/equality.dds"
 
 	group = je_group_historical_content
 
@@ -1108,7 +1030,7 @@ je_great_reformer = { # Note - Alexander II certainly would not have called thes
 }
 
 je_great_reforms_serfdom = {
-    icon = "gfx/interface/icons/journal_icons/russia_icons/alexpeasantreform.dds"
+    icon = "gfx/interface/icons/event_icons/corn.dds"
 
 	group = je_group_historical_content
     
@@ -1151,7 +1073,7 @@ je_great_reforms_serfdom = {
 }
 
 je_great_reforms_military = {
-    icon = "gfx/interface/icons/journal_icons/russia_icons/alexmilitaryreform.dds"
+    icon = "gfx/interface/icons/event_icons/militar.dds"
 
 	group = je_group_historical_content
 
@@ -1236,7 +1158,7 @@ je_great_reforms_military = {
 }
 
 je_great_reforms_bureaucratic = {
-    icon = "gfx/interface/icons/journal_icons/russia_icons/alexburreform.dds"
+    icon = "gfx/interface/icons/event_icons/buro.dds"
 
 	group = je_group_historical_content
 

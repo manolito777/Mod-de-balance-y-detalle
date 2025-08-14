@@ -1,5 +1,5 @@
 je_divided_monarchists = {
-	icon = "gfx/interface/icons/journal_icons/french_icons/dividedmonarchists.dds"
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
 
 	group = je_group_historical_content
 
@@ -257,7 +257,7 @@ je_divided_monarchists = {
 }
 
 je_cement_the_rightful_dynasty = {
-	icon = "gfx/interface/icons/journal_icons/french_icons/cementroyalhouse.dds"
+	icon = "gfx/interface/icons/event_icons/bicorne_hat.dds"
 
 	group = je_group_historical_content
 
@@ -503,7 +503,7 @@ je_cement_the_rightful_dynasty = {
 }
 
 je_conquest_of_algeria = {
-	icon = "gfx/interface/icons/journal_icons/french_icons/conquestofalgeria.dds"
+	icon = "gfx/interface/icons/event_icons/expansion.dds"
 
 	group = je_group_historical_content
 
@@ -543,7 +543,7 @@ je_conquest_of_algeria = {
 }
 
 je_the_algerian_departements = {
-	icon = "gfx/interface/icons/french_icons/algeriandepartements.dds"
+	icon = "gfx/interface/icons/event_icons/buro.dds"
 
 	group = je_group_historical_content
 
@@ -659,7 +659,7 @@ je_the_algerian_departements = {
 }
 
 je_reconquest_of_algeria = {
-	icon = "gfx/interface/icons/journal_icons/french_icons/algerianreconquest.dds"
+	icon = "gfx/interface/icons/event_icons/expansion.dds"
 
 	group = je_group_historical_content
 
@@ -698,7 +698,7 @@ je_reconquest_of_algeria = {
 }
 
 je_french_foreign_legion = {
-	icon = "gfx/interface/icons/frenh_icons/frenchforeignlegion.dds"
+	icon = "gfx/interface/icons/event_icons/ffl.dds"
 
 	group = je_group_historical_content
 
@@ -732,7 +732,7 @@ je_french_foreign_legion = {
 }
 
 je_french_natural_borders = {
-	icon = "gfx/interface/icons/journal_icons/french_icons/frenchnaturalborders.dds"
+	icon = "gfx/interface/icons/event_icons/nbf.dds"
 
 	group = je_group_historical_content
 
@@ -813,7 +813,7 @@ je_french_natural_borders = {
 }
 
 je_confederation_of_the_rhine = {
-	icon = "gfx/interface/icons/journal_icons/french_icons/confederationofrhine.dds"
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
 
 	group = je_group_foreign_affairs
 

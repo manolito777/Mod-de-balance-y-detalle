@@ -1,5 +1,5 @@
 je_victoria = {
-	icon = "gfx/interface/icons/journal_icons/british_icons/hannoversuccession.dds"
+	icon = "gfx/interface/icons/event_icons/crown_from_gutter.dds"
 
 	group = je_group_historical_content
 
@@ -73,7 +73,7 @@ je_victoria = {
 }
 
 je_canada_gbr = {
-	icon = "gfx/interface/icons/journal_icons/british_icons/federatecanada.dds"
+	icon = "gfx/interface/icons/event_icons/nationalism.dds"
 
 	group = je_group_historical_content
 
@@ -145,7 +145,7 @@ je_canada_gbr = {
 }
 
 je_australia_gbr = {
-	icon = "gfx/interface/icons/journal_icons/british_icons/federateaustralia.dds"
+	icon = "gfx/interface/icons/event_icons/nationalism.dds"
 
 	group = je_group_historical_content
 
@@ -196,7 +196,7 @@ je_australia_gbr = {
 }
 
 je_aberdeen_act = {
-    icon = "gfx/interface/icons/journal_icons/british_icons/aberdeenact.dds"
+    icon = "gfx/interface/icons/event_icons/slavery.dds"
 
 	group = je_group_historical_content
 

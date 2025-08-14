@@ -1,5 +1,5 @@
 ﻿je_age_of_princes = {
-	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	icon = "gfx/interface/icons/event_icons/war.dds"
 	
 	group = je_group_historical_content
 

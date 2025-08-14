@@ -1,5 +1,5 @@
 ﻿je_russo_turkish_war = {
-	icon = "gfx/interface/icons/journal_icons/russia_icons/rusot.dds"
+	icon = "gfx/interface/icons/event_icons/ruswar.png"
 
 	group = je_group_russia_expansion
 
@@ -77,7 +77,7 @@
 }
 
 je_great_russo_turkish_war = {
-	icon = "gfx/interface/icons/journal_icons/russia_icons/rusot.dds"
+	icon = "gfx/interface/icons/event_icons/ruswar.png"
 
 	group = je_group_russia_expansion
 
@@ -301,7 +301,7 @@ je_great_russo_turkish_war = {
 }
 
 je_western_russo_turkish_war = {
-	icon = "gfx/interface/icons/journal_icons/russia_icons/rusot.dds"
+	icon = "gfx/interface/icons/event_icons/ruswar.png"
 
 	group = je_group_russia_expansion
 
@@ -483,7 +483,7 @@ je_western_russo_turkish_war = {
 }
 
 je_eastern_russo_turkish_war = {
-	icon = "gfx/interface/icons/journal_icons/russia_icons/rusot.dds"
+	icon = "gfx/interface/icons/event_icons/ruswar.png"
 
 	group = je_group_russia_expansion
 
@@ -651,7 +651,7 @@ je_eastern_russo_turkish_war = {
 }
 
 je_turkish_pov_war = { #ottoman perspective
-	icon = "gfx/interface/icons/journal_icons/russia_icons/rusot.dds"
+	icon = "gfx/interface/icons/event_icons/turwar.dds"
 
 	group = je_group_russia_expansion
 
