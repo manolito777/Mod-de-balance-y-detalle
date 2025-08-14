@@ -1,5 +1,5 @@
 ﻿je_earn_recognition = {
-	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	icon = "gfx/interface/icons/event_icons/diplo.dds"
 
 	group = je_group_foreign_affairs
 

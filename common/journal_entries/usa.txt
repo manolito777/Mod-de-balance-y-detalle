@@ -1,6 +1,6 @@
-﻿
+
 je_indian_removal = {
-	icon = "gfx/interface/icons/journal_icons/usa_icons/indianremoval.dds"
+	icon = "gfx/interface/icons/event_icons/event_skull.dds"
 
 	group = je_group_historical_content
 	
@@ -70,7 +70,7 @@ je_indian_removal = {
 }
 
 je_texas_usa = {
-	icon = "gfx/interface/icons/journal_icons/usa_icons/texanstatehood.dds"
+	icon = "gfx/interface/icons/event_icons/texas.dds"
 
 	group = je_group_historical_content
 
@@ -100,7 +100,7 @@ je_texas_usa = {
 }
 
 je_oregon = {
-	icon = "gfx/interface/icons/journal_icons/usa_icons/oregontreaty.dds"
+	icon = "gfx/interface/icons/event_icons/usa_isolation.dds"
 
 	group = je_group_historical_content
 
@@ -231,7 +231,7 @@ je_oregon = {
 }
 
 je_conquer_oregon = {
-	icon = "gfx/interface/icons/journal_icons/usa_icons/conqueroregon.dds"
+	icon = "gfx/interface/icons/event_icons/usa_isolation.dds"
 
 	group = je_group_historical_content
 
@@ -250,7 +250,7 @@ je_conquer_oregon = {
 
 
 je_seminole_wars = {
-	icon = "gfx/interface/icons/journal_icons/usa_icons/seminolewars.dds"
+	icon = "gfx/interface/icons/event_icons/usa_isolation.dds"
 
 	group = je_group_historical_content
 
@@ -336,7 +336,7 @@ je_seminole_wars = {
 }
 
 je_manifest_destiny_mexico = {
-	icon = "gfx/interface/icons/journal_icons/usa_icons/mexicancession.dds"
+	icon = "gfx/interface/icons/event_icons/usa_isolation.dds"
 	
 	group = je_group_historical_content
 	
@@ -359,7 +359,7 @@ je_manifest_destiny_mexico = {
 }
 
 je_manifest_destiny_frontier_wars = {
-	icon = "gfx/interface/icons/usa_icons/frontierwars.dds"
+	icon = "gfx/interface/icons/event_icons/usa_isolation.dds"
 	
 	group = je_group_historical_content
 	
