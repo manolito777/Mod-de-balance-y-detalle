@@ -112,6 +112,9 @@ SAF = {
 	
 	cultures = { british boer }
 	capital = STATE_CAPE_COLONY
+	primary_unit_color = { 197 58 17 }
+	secondary_unit_color  = { 36 54 67 }
+	tertiary_unit_color = { 255 252 255 }
 }
 
 SOK = {
