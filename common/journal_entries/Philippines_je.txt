@@ -1,0 +1,67 @@
+
+#RIO AMARILLO
+je_philippines = {
+	icon = "gfx/interface/icons/event_icons/china.dds"
+	
+	group = je_group_internal_affairs
+	
+	is_shown_when_inactive = {
+		is_player = yes
+		any_scope_state = {
+			state_region = s:STATE_LUZON
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_VISAYAS
+			is_incorporated = yes
+		}
+		any_scope_state = {
+			state_region = s:STATE_MINDANAO
+			is_incorporated = yes
+		}
+		hidden_trigger = {
+			NOT = {has_variable = philippines_event_done }
+		}
+	}
+	
+	complete = {
+		any_scope_state = {
+			state_region = s:STATE_LUZON
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_iron_mine
+				level >= 1
+			}
+		}
+		any_scope_state = {
+			state_region = s:STATE_VISAYAS
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_iron_mine
+				level >= 1
+			}
+		}
+		any_scope_state = {
+			state_region = s:STATE_MINDANAO
+			is_incorporated = yes
+			any_scope_building = {
+				is_building_type = building_iron_mine
+				level >= 1
+			}
+		}
+	}
+	on_complete = {
+		trigger_event = {
+			id = philippines.1
+		}
+		set_variable = {
+			name = philippines_event_done
+			value = yes
+		}
+	
+	}
+	
+
+	weight = 10000
+	should_be_pinned_by_default = yes
+}
