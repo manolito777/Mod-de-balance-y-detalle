@@ -87,11 +87,7 @@
 }
 
 je_acw_war = {
-<<<<<<< HEAD
-	icon = "gfx/interface/icons/event_icons/war.dds"
-=======
 	icon = "gfx/interface/icons/event_icons/csa.dds"
->>>>>>> 6817b6ade4ce95c9000e320a8c105951449b13b6
 
 	group = je_group_usa_american_civil_war
 

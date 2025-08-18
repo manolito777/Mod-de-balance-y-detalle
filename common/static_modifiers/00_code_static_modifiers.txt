@@ -613,7 +613,7 @@ infamy_pariah = {
 	country_prestige_mult = -0.5
 	country_influence_mult = -0.5
 	country_tech_spread_mult = -0.2
-	state_tax_waste_add = 0.10
+
 	country_infamy_decay_mult = -0.2
 
 }

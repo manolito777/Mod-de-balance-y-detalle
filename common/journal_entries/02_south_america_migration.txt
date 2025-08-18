@@ -58,11 +58,7 @@
 		}
 		change_variable = {
 			name = south_america_migration_goal
-<<<<<<< HEAD
-			multiply = 1500000
-=======
 			multiply = 20000000
->>>>>>> 6817b6ade4ce95c9000e320a8c105951449b13b6
 		}
 		trigger_event = { id = sa_migration.2 popup = yes }
 	}
@@ -107,11 +103,7 @@
 			}
 			change_variable = {
 				name = south_america_migration_goal
-<<<<<<< HEAD
-				multiply = 1500000
-=======
 				multiply = 20000000
->>>>>>> 6817b6ade4ce95c9000e320a8c105951449b13b6
 			}
 		}
 	}
@@ -219,11 +211,7 @@ je_central_america_migration = {
 		}
 		change_variable = {
 			name = central_america_migration_goal
-<<<<<<< HEAD
-			multiply = 1500000
-=======
 			multiply = 20000000
->>>>>>> 6817b6ade4ce95c9000e320a8c105951449b13b6
 		}
 		trigger_event = { id = sa_migration.2 popup = yes }
 	}
@@ -274,11 +262,7 @@ je_central_america_migration = {
 			}
 			change_variable = {
 				name = central_america_migration_goal
-<<<<<<< HEAD
-				multiply = 1000000
-=======
 				multiply = 20000000
->>>>>>> 6817b6ade4ce95c9000e320a8c105951449b13b6
 			}
 		}
 	}

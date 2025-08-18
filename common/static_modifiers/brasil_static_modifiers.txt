@@ -3,7 +3,6 @@
 	country_prestige_mult = 0.05
 	state_assimilation_mult = 0.25
 	state_migration_pull_mult = 0.25
-	state_birth_rate_mult = 0.05
 }
 
 modifier_agricultural_development_trade = {
